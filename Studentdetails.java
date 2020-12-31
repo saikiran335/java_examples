@@ -1,0 +1,28 @@
+class Student
+{
+int id;
+String name;
+
+void insert(int i,String s)
+{
+id=i;
+name=s;
+}
+
+void display()
+{
+System.out.println(id+" "+name+ "");
+}
+}
+class Studentdetails
+{
+public static void main (String [] args)
+{
+Student s1=new Student();
+Student s2=new Student();
+s1.insert(4078,"sai");
+s1.insert(4061,"nisha");
+s1.display();
+s2.display();
+}
+}
